@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+    font-family: Georgia, serif;
+    font-size: 180%;
+}
+header, nav, footer, section, article, aside {
+    border: 1px solid #333333;
+    margin: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+header, nav, footer {
+    width: 99%;
+    height: 165px;
+}
+section, article {
+    width: 75%;
+    height: 250px;
+    float: left;
+}
+aside {
+    width: 23%;
+    height: 522px;
+    float: right;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+footer {
+    clear: both;
+}

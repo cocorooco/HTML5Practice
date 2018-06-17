@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1500px) {
+    header, nav, footer {
+        width: 98.5%;
+    }
+    section, article {
+        float: none;
+    }
+    aside {
+        float: none;
+        margin: 10px;
+    }
+    section, article, aside {
+        width: 98.5%;
+    }
+    footer {
+        clear: none;
+    }
+}
